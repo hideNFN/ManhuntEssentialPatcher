@@ -15,4 +15,3 @@ cd GASPOUR
 rename GASPOUR.RIB GASP0UR.RIB
 echo Patch was successfully installed.
 pause
-exit
