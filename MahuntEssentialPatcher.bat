@@ -1,5 +1,5 @@
 @echo off
-title Manhunt Essential Patcher - by hideNFN
+title Manhunt Essential Patcher @ https://github.com/hideNFN/ManhuntEssentialPatcher
 rename manhunt.exe manhunt.exe.old
 rename testapp.exe manhunt.exe
 link.exe -edit -nxcompat:no -dynamicbase:no manhunt.exe
