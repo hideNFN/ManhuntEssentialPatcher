@@ -16,4 +16,4 @@ It also uses a script found with Visual Studio (MSVC's "link.exe") to edit the r
 
 Used the hostx86/x86 version of link.exe (MSVC Linker which was bundled with Visual Studio Community 2022).
 
-Patching method is adapted from the GitHub repositories of fkortsagin's [Manhunt-fix-Windows-10](https://github.com/fkortsagin/Manhunt-fix-Windows-10) and ermaccer's [Manhunt.Fixer](https://github.com/ermaccer/Manhunt.Fixer)
+Patching method is adapted from the GitHub repositories of fkortsagin's [Manhunt-fix-Windows-10](https://github.com/fkortsagin/Manhunt-fix-Windows-10) and ermaccer's [Manhunt.Fixer](https://github.com/ermaccer/Manhunt.Fixer).
