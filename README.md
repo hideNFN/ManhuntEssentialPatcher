@@ -2,6 +2,10 @@
 
 ## A simple patch that makes Manhunt run on modern systems.
 
+### Instructions
+
+Place all of the files from the latest release(ManhuntEssentialPatcher.bat, link.exe, tbbmalloc.dll) into the Manhunt install directory and just run ManhuntEssentialPatcher.bat
+
 Besides this fix, I definitely recommend locking the FPS to 60 with software that supports DirectX 8, for example: [RivaTuner Statistics Server](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html), which I use and it also comes bundled with MSI Afterburner.
 
 ### How it works
