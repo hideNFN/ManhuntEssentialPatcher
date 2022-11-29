@@ -1,12 +1,37 @@
 # Manhunt Essential Patcher
 
+
 ## A simple patch that makes Manhunt run on modern systems.
 
-### Instructions
 
+### Instructions
 Place all of the files from the latest release into a fresh Manhunt install directory and just run "ManhuntEssentialPatcher.bat".
 
 Besides this fix, I definitely recommend locking the FPS to 60 with software that supports DirectX 8, for example: [RivaTuner Statistics Server](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html), which I use and it also comes bundled when installing MSI Afterburner.
+
+
+### Compatibility
+| **Versions** |  |
+|---|---|
+| Steam version | ✅ |
+| Retail version | ⚠️ |
+| Cracked versions | ⚠️ |
+
+> This fix has only been tested on the official Steam version so far, those who own the retail version or have cracked the game may not see the same results.
+
+
+### Patch check
+The script also checks if the newly modified manhunt.exe's SHA256 checksum matches the one of one that was patched and also tested, but you can also manually verify the checksum with these commands after switching to manhunt's directory in the terminal:
+
+**PowerShell**
+`Get-FileHash manhunt.exe`
+
+**Command Prompt**
+`certutil -hashfile manhunt.exe SHA256`
+
+| **SHA256 Checksum** |
+|---|
+| f1a992475182358e487eb89a27eceec194aeb74b7ed05525835d07306be6c13f |
 
 ### How it works
 This is basically a .bat file that renames "testapp.exe" as "manhunt.exe" ("testapp.exe" is the original retail executable that doesn't have the issues present in the steam release manhunt.exe), it makes a backup of the original files in another folder called "BACKUP", it makes a backup of the game saves, if there are any, it also renames three audio files that glitch out and repeat so that they don't play anymore (The sound of the guy on the toilet, the german porn and the sound of gasoline being poured into a tank, which are "CRAPPER.RIB", "PORN.RIB" and "GASPOUR.RIB" respectively).

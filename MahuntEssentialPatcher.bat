@@ -7,5 +7,9 @@ move manhunt.exe BACKUP\manhunt.exe.backup
 copy testapp.exe BACKUP\testapp.exe.backup
 rename testapp.exe manhunt.exe
 link.exe -edit -nxcompat:no -dynamicbase:no manhunt.exe
+echo Verifying if manhunt.exe is installed correctly...
+certutil -hashfile manhunt.exe SHA256
+echo f1a992475182358e487eb89a27eceec194aeb74b7ed05525835d07306be6c13f  --  COMPARE THE PREVIOUS OUTPUT TO THIS CHECKSUM TO CONFIRM THAT IT HAD BEEN PATCHED. IF CHECKSUM IS NOT THE SAME, MANHUNT MAY NOT BE PATCHED CORRECTLY.
+pause
 start MEP2.bat
 exit

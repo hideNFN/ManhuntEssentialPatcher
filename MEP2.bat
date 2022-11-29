@@ -13,6 +13,6 @@ set mhsavepath="%userprofile%\Documents\Manhunt User Files"
 set mhsavegames="%userprofile%\Documents\Manhunt User Files\SaveGames"
 if exist %mhsavegames% echo Making a backup of your Manhunt saves... & cd %mhsavepath% & mkdir BACKUP & copy SaveGames BACKUP
 if not exist %mhsavegames% echo Couldn't find Manhunt saves, skipping the saves folder backup...
-echo Patch was successfully installed.
+echo Manhunt Essential Patcher script ran successfully.
 pause
 exit
