@@ -21,7 +21,7 @@ Besides this fix, I definitely recommend locking the FPS to 60 with software tha
 
 
 ### Patch check
-The script also checks if the newly modified manhunt.exe's SHA256 checksum matches the one of one that was patched and also tested, but you can also manually verify the checksum with these commands after switching to manhunt's directory in the terminal:
+The script also checks if the newly modified manhunt.exe's SHA256 checksum matches the one that was patched and tested by me, but you can also manually verify the checksum with these commands after switching to manhunt's directory in the terminal:
 
 **PowerShell**
 `Get-FileHash manhunt.exe`
