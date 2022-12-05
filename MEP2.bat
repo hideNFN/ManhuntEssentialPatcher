@@ -8,6 +8,9 @@ rename PORN.RIB P0RN.RIB
 cd ..
 cd GASPOUR
 rename GASPOUR.RIB GASP0UR.RIB
+cd ..
+cd TRAIN
+rename TRAIN1.RIB TR4IN1.RIB
 C:
 set mhsavepath="%userprofile%\Documents\Manhunt User Files"
 set mhsavegames="%userprofile%\Documents\Manhunt User Files\SaveGames"
