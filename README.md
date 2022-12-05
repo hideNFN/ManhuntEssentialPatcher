@@ -14,7 +14,7 @@ While the script automatically renames some sounds that loop infinitely, there's
 
 <details> 
   <summary>Levels where the bug occurs are: </summary>
-   1. Press Coverage (Scene #15) - Cash's last line repeat infinitely after getting to the apartment, luckily, there's a save point right after that.
+   1. Press Coverage (Scene #15) - Cash's last line repeats infinitely after getting to the apartment, luckily, there's a save point right after that.
 </details>
 
 ### Compatibility
