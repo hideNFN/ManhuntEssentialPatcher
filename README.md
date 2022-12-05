@@ -10,7 +10,7 @@ Place all of the files from the latest release into a fresh Manhunt install dire
 Besides this fix, I definitely recommend locking the FPS to 60 with software that supports DirectX 8, for example: [RivaTuner Statistics Server](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html), which I use and it also comes bundled when installing MSI Afterburner.
 
 ### Audio Bugs
- 1. Some effects cut off and replay for seemengly no reason, these occurences are pretty rare and hard to notice however. Main menu music also replays while you're alt-tabbed as well.
+ 1. Some effects cut off and replay for seemingly no reason, these occurences are pretty rare and hard to notice however. Main menu music also replays while you're alt-tabbed as well.
  2. Press Coverage (Scene #15) - Cash's last line repeats infinitely after getting to the apartment, luckily, there's a save point right after that, all you have to do is get it, open the menu, save and reload it, the bug should disappear. (This sound loop wasn't disabled since it's important towards the cutscene and you can get rid of it easily)
  3. Deliverance (Scene #20) - A slow motion sound repeats a few times throughout the last cutscene.
  4. Credits - There are two music tracks and the last seconds of each song keeps repeating for a few seconds, the credits are unskippable unfortunately.
