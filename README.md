@@ -9,6 +9,13 @@ Place all of the files from the latest release into a fresh Manhunt install dire
 
 Besides this fix, I definitely recommend locking the FPS to 60 with software that supports DirectX 8, for example: [RivaTuner Statistics Server](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html), which I use and it also comes bundled when installing MSI Afterburner.
 
+### Audio Bug Workaround
+While the script automatically renames some sounds that loop infinitely, there's some that are linked to cutscenes and removing them would downgrade the experience, the workaround consists of getting to the nearest save icon after having the bug occur and saving from the pause menu, a save reload will fix the issue.
+
+<details> 
+  <summary>Levels where the bug occurs are: </summary>
+   1. Press Coverage (Scene #15) - Cash's last line repeat infinitely after getting to the apartment, luckily, there's a save point right after that.
+</details>
 
 ### Compatibility
 | **Versions** |  |
